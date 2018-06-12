@@ -17,10 +17,10 @@ ClozeCard.prototype.full = function() {
 
 var card1 = new ClozeCard("George Washington was the first ... of the United States?", "president");
 var card2 = new ClozeCard("First president to get ... was Abraham Lincoln?", "assassinated");
-var card3 = new ClozeCard("What president had polio?", "franklin roosevelt");
-var card4 = new ClozeCard("who was the first african american president?", "barack obama");
-var card5 = new ClozeCard("What president is on the $100 bill?", "benjamin franklin");
-var card6 = new ClozeCard("Which president ended the vietnam war?", "richard nixon");
+var card3 = new ClozeCard("Franklin Roosevelt was born with ...", "polio");
+var card4 = new ClozeCard("The very first ... president was Barack Obama", "african american");
+var card5 = new ClozeCard("Benjamin Franklin is on the ... bill?", "$100");
+var card6 = new ClozeCard("Richard Nixon ended the ... war?", "vietnam");
 
 cards.push(card1);
 cards.push(card2);
